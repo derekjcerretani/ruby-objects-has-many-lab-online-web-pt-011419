@@ -8,14 +8,14 @@ def Author
   end
 
   def add_post(post)
-    post = self.new
+    post.author = self
     @posts << post
   end
 
   def add_post_by_title(post_title)
     post = Post.new
     @posts << post
-
+    
   end
 
 end
