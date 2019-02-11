@@ -14,7 +14,10 @@ class Post
   end
 
   def author_name
-    self.author.name ? Author.name : nil
+    if Author.name == true
+      self.author.name
+    else
+      nil
   end
 
 
