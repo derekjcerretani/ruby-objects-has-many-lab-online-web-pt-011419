@@ -16,7 +16,7 @@ class Song
   end
 
   def artist_name
-    @author.name ? @author.name : nil
+    @artist.name ? @artist : nil
     #binding.pry
   end
 
