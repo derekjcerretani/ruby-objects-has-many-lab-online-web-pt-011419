@@ -20,6 +20,7 @@ class Song
       self.artist.name
     else
       nil
+    end
     #binding.pry
   end
 
