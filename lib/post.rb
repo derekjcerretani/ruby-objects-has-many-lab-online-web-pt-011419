@@ -14,7 +14,11 @@ class Post
   end
 
   def author_name
-    nil ? @author == nil : @author.name
+    if @author == nil
+      nil
+    else
+      @author.name
+    end
   end
 
 
